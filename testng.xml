@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/lentraadmin/IdeaProjects/AutomationBasics/src/test/java/DataDriven/DataUse2.java">
+
+       <parameter name="Name" value="Aniket"></parameter>
+        <parameter name="Sirname" value="Dhawale"></parameter>
+
+        <classes>
+            <class name="DataDriven.DataUse2">
+                <methods>
+                    <include name="createFullName"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

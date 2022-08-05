@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterised Test cases Test Suit">
+
+    <parameter name="UserName" value="Aniketcorp1995@gmail.com"></parameter>
+    <parameter name="PassWord" value="Aniket@123"></parameter>
+    <parameter name="ProductName" value="Mobile Phone"></parameter>
+
+    <test name="Parameterised tests">
+        <classes>
+            <class name="ParameterAnnotataion">
+            </class>
+        </classes>
+    </test>
+</suite>

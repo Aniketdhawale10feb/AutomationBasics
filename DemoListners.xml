@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo listners">
+    <listeners>
+        <listener class-name="DemoListners.AllListners"></listener>
+    </listeners>
+    
+    <test name="listners check">
+        <classes>
+            <class name="DemoListners.ListnedTestCases"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="36" passed="22" failed="3" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T09:31:58 IST" name="Demo listners" finished-at="2022-06-09T09:31:58 IST" duration-ms="8">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T09:31:58 IST" name="listners check" finished-at="2022-06-09T09:31:58 IST" duration-ms="8">
+      <class name="DemoListners.ListnedTestCases">
+        <test-method signature="FailCase()[pri:1, instance:DemoListners.ListnedTestCases@51931956]" started-at="2022-06-09T09:31:58 IST" name="FailCase" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3] but found [2]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at DemoListners.ListnedTestCases.FailCase(ListnedTestCases.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailCase -->
+        <test-method signature="SuccessCase()[pri:0, instance:DemoListners.ListnedTestCases@51931956]" started-at="2022-06-09T09:31:58 IST" name="SuccessCase" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessCase -->
+        <test-method signature="SkippedCase()[pri:2, instance:DemoListners.ListnedTestCases@51931956]" started-at="2022-06-09T09:31:58 IST" name="SkippedCase" finished-at="2022-06-09T09:31:58 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[The case is skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: The case is skipped
+at DemoListners.ListnedTestCases.SkippedCase(ListnedTestCases.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkippedCase -->
+        <test-method signature="DtProvide(java.lang.String)[pri:3, instance:DemoListners.ListnedTestCases@51931956]" started-at="2022-06-09T09:31:58 IST" name="DtProvide" data-provider="DTP" finished-at="2022-06-09T09:31:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[s1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DtProvide -->
+        <test-method signature="DtProvide(java.lang.String)[pri:3, instance:DemoListners.ListnedTestCases@51931956]" started-at="2022-06-09T09:31:58 IST" name="DtProvide" data-provider="DTP" finished-at="2022-06-09T09:31:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[s2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DtProvide -->
+      </class> <!-- DemoListners.ListnedTestCases -->
+    </test> <!-- listners check -->
+  </suite> <!-- Demo listners -->
+  <suite started-at="2022-06-09T09:31:58 IST" name="Parameterised Test cases Test Suit" finished-at="2022-06-09T09:31:58 IST" duration-ms="6">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T09:31:58 IST" name="Parameterised tests" finished-at="2022-06-09T09:31:58 IST" duration-ms="6">
+      <class name="ParameterAnnotataion">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:ParameterAnnotataion@7364985f]" started-at="2022-06-09T09:31:58 IST" name="login" finished-at="2022-06-09T09:31:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aniketcorp1995@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aniket@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Product(java.lang.String)[pri:0, instance:ParameterAnnotataion@7364985f]" started-at="2022-06-09T09:31:58 IST" name="Product" finished-at="2022-06-09T09:31:58 IST" depends-on-methods="ParameterAnnotataion.login" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile Phone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product -->
+      </class> <!-- ParameterAnnotataion -->
+    </test> <!-- Parameterised tests -->
+  </suite> <!-- Parameterised Test cases Test Suit -->
+  <suite started-at="2022-06-09T09:31:58 IST" name="Grouping" finished-at="2022-06-09T09:31:58 IST" duration-ms="2">
+    <groups>
+      <group name="Sanity">
+        <method signature="Grouping.t3()[pri:0, instance:Grouping@3f200884]" name="t3" class="Grouping"/>
+        <method signature="Grouping.t4()[pri:0, instance:Grouping@3f200884]" name="t4" class="Grouping"/>
+        <method signature="Grouping.t5()[pri:0, instance:Grouping@3f200884]" name="t5" class="Grouping"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Grouping.t5()[pri:0, instance:Grouping@3f200884]" name="t5" class="Grouping"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-06-09T09:31:58 IST" name="group wise execution" finished-at="2022-06-09T09:31:58 IST" duration-ms="2">
+      <class name="Grouping">
+        <test-method signature="t3()[pri:0, instance:Grouping@3f200884]" started-at="2022-06-09T09:31:58 IST" name="t3" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3 -->
+        <test-method signature="t4()[pri:0, instance:Grouping@3f200884]" started-at="2022-06-09T09:31:58 IST" name="t4" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t4 -->
+        <test-method signature="t5()[pri:0, instance:Grouping@3f200884]" started-at="2022-06-09T09:31:58 IST" name="t5" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t5 -->
+      </class> <!-- Grouping -->
+    </test> <!-- group wise execution -->
+  </suite> <!-- Grouping -->
+  <suite started-at="2022-06-09T09:31:58 IST" name="Multi Suits execution" finished-at="2022-06-09T09:31:58 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Multi Suits execution -->
+  <suite started-at="2022-06-09T09:31:58 IST" name="All Test Suite" finished-at="2022-06-09T09:31:58 IST" duration-ms="67">
+    <groups>
+      <group name="Sanity">
+        <method signature="Assertion.t5()[pri:0, instance:Assertion@1efee8e7]" name="t5" class="Assertion"/>
+        <method signature="Assertion.t3()[pri:0, instance:Assertion@646be2c3]" name="t3" class="Assertion"/>
+        <method signature="Assertion.t4()[pri:0, instance:Assertion@646be2c3]" name="t4" class="Assertion"/>
+        <method signature="Assertion.t5()[pri:0, instance:Assertion@646be2c3]" name="t5" class="Assertion"/>
+        <method signature="TestCases2.TC2()[pri:0, instance:TestCases2@19dc67c2]" name="TC2" class="TestCases2"/>
+        <method signature="SkipTestCases.SkipMethod2()[pri:1, instance:SkipTestCases@221af3c0]" name="SkipMethod2" class="SkipTestCases"/>
+        <method signature="TestCases.test2()[pri:2, instance:TestCases@77be656f]" name="test2" class="TestCases"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Assertion.t1()[pri:0, instance:Assertion@1efee8e7]" name="t1" class="Assertion"/>
+        <method signature="Assertion.t2()[pri:0, instance:Assertion@1efee8e7]" name="t2" class="Assertion"/>
+        <method signature="Assertion.t5()[pri:0, instance:Assertion@1efee8e7]" name="t5" class="Assertion"/>
+        <method signature="TestCases2.TC1()[pri:0, instance:TestCases2@49c43f4e]" name="TC1" class="TestCases2"/>
+        <method signature="TestCases.test1()[pri:1, instance:TestCases@799d4f69]" name="test1" class="TestCases"/>
+        <method signature="Assertion.t1()[pri:0, instance:Assertion@646be2c3]" name="t1" class="Assertion"/>
+        <method signature="Assertion.t2()[pri:0, instance:Assertion@646be2c3]" name="t2" class="Assertion"/>
+        <method signature="Assertion.t5()[pri:0, instance:Assertion@646be2c3]" name="t5" class="Assertion"/>
+        <method signature="TestCases2.TC1()[pri:0, instance:TestCases2@19dc67c2]" name="TC1" class="TestCases2"/>
+        <method signature="TestCases.test1()[pri:1, instance:TestCases@77be656f]" name="test1" class="TestCases"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-06-09T09:31:58 IST" name="group wise execution" finished-at="2022-06-09T09:31:58 IST" duration-ms="43">
+      <class name="TestCases2">
+        <test-method signature="TC1()[pri:0, instance:TestCases2@49c43f4e]" started-at="2022-06-09T09:31:58 IST" name="TC1" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- TestCases2 -->
+      <class name="TestCases">
+        <test-method signature="test1()[pri:1, instance:TestCases@799d4f69]" started-at="2022-06-09T09:31:58 IST" name="test1" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- TestCases -->
+      <class name="Assertion">
+        <test-method signature="t1()[pri:0, instance:Assertion@1efee8e7]" started-at="2022-06-09T09:31:58 IST" name="t1" finished-at="2022-06-09T09:31:58 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method signature="t2()[pri:0, instance:Assertion@1efee8e7]" started-at="2022-06-09T09:31:58 IST" name="t2" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method signature="t5()[pri:0, instance:Assertion@1efee8e7]" started-at="2022-06-09T09:31:58 IST" name="t5" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t5 -->
+      </class> <!-- Assertion -->
+    </test> <!-- group wise execution -->
+    <test started-at="2022-06-09T09:31:58 IST" name="all class execution" finished-at="2022-06-09T09:31:58 IST" duration-ms="22">
+      <class name="SkipTestCases">
+        <test-method signature="SkipMethod2()[pri:1, instance:SkipTestCases@221af3c0]" started-at="2022-06-09T09:31:58 IST" name="SkipMethod2" finished-at="2022-06-09T09:31:58 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This case is intentionaly skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This case is intentionaly skipped
+at SkipTestCases.SkipMethod2(SkipTestCases.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkipMethod2 -->
+      </class> <!-- SkipTestCases -->
+      <class name="TestCases2">
+        <test-method signature="TC1()[pri:0, instance:TestCases2@19dc67c2]" started-at="2022-06-09T09:31:58 IST" name="TC1" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method signature="TC2()[pri:0, instance:TestCases2@19dc67c2]" started-at="2022-06-09T09:31:58 IST" name="TC2" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+      </class> <!-- TestCases2 -->
+      <class name="TestCases">
+        <test-method signature="test1()[pri:1, instance:TestCases@77be656f]" started-at="2022-06-09T09:31:58 IST" name="test1" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:TestCases@77be656f]" started-at="2022-06-09T09:31:58 IST" name="test2" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- TestCases -->
+      <class name="Assertion">
+        <test-method signature="t1()[pri:0, instance:Assertion@646be2c3]" started-at="2022-06-09T09:31:58 IST" name="t1" finished-at="2022-06-09T09:31:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method signature="t2()[pri:0, instance:Assertion@646be2c3]" started-at="2022-06-09T09:31:58 IST" name="t2" finished-at="2022-06-09T09:31:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method signature="t3()[pri:0, instance:Assertion@646be2c3]" started-at="2022-06-09T09:31:58 IST" name="t3" finished-at="2022-06-09T09:31:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3 -->
+        <test-method signature="t4()[pri:0, instance:Assertion@646be2c3]" started-at="2022-06-09T09:31:58 IST" name="t4" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t4 -->
+        <test-method signature="t5()[pri:0, instance:Assertion@646be2c3]" started-at="2022-06-09T09:31:58 IST" name="t5" finished-at="2022-06-09T09:31:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t5 -->
+      </class> <!-- Assertion -->
+      <class name="SoftAssertion">
+        <test-method signature="sat1()[pri:0, instance:SoftAssertion@797badd3]" started-at="2022-06-09T09:31:58 IST" name="sat1" finished-at="2022-06-09T09:31:58 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [nagar] but found [pune],
+This is interger comparison assertion expected [20] but found [10],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [nagar] but found [pune],
+This is interger comparison assertion expected [20] but found [10],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at SoftAssertion.sat1(SoftAssertion.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sat1 -->
+        <test-method signature="sat2()[pri:0, instance:SoftAssertion@797badd3]" started-at="2022-06-09T09:31:58 IST" name="sat2" finished-at="2022-06-09T09:31:58 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at SoftAssertion.sat2(SoftAssertion.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sat2 -->
+      </class> <!-- SoftAssertion -->
+    </test> <!-- all class execution -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
