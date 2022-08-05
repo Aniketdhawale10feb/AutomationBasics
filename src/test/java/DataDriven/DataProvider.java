@@ -28,9 +28,8 @@ public class DataProvider {
                     {2,3},
                     {4,5}
             };
-        }
-
-        return new Object[0][];
+        }else{
+        return new Object[0][];}
     }
 }
 
